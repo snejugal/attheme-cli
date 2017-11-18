@@ -1,0 +1,31 @@
+{
+  "name": "attheme-cli",
+  "version": "1.0.0",
+  "description": "A command line interface for working with .attheme files.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snejugal/attheme-cli.git"
+  },
+  "keywords": [
+    "attheme",
+    "cli",
+    "telegram"
+  ],
+  "author": "SnejUgal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snejugal/attheme-cli/issues"
+  },
+  "homepage": "https://github.com/snejugal/attheme-cli#readme",
+  "dependencies": {
+    "attheme-default-values": "^1.2.2",
+    "attheme-js": "^1.1.1",
+    "colors": "^1.1.2",
+    "fuzzyfind": "^2.0.0",
+    "inquirer": "^4.0.0",
+    "inquirer-autocomplete-prompt": "^0.12.0"
+  },
+  "bin": {
+    "attheme": "./index.js"
+  }
+}
