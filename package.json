@@ -18,12 +18,12 @@
   },
   "homepage": "https://github.com/snejugal/attheme-cli#readme",
   "dependencies": {
-    "attheme-default-values": "^1.2.2",
-    "attheme-js": "^1.1.1",
-    "colors": "^1.1.2",
+    "attheme-default-values": "^4.8.12",
+    "attheme-js": "^1.1.2",
+    "colors": "^1.3.3",
     "fuzzyfind": "^2.0.0",
-    "inquirer": "^4.0.0",
-    "inquirer-autocomplete-prompt": "^0.12.0"
+    "inquirer": "^4.0.2",
+    "inquirer-autocomplete-prompt": "^0.12.2"
   },
   "bin": {
     "attheme": "./index.js"
